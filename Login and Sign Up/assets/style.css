@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #fafafa;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+   
+    
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+}
+
+.gen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(20, 14, 14);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(181, 102, 255);
+}
+
+#btn2 {
+    width: 310px;
+        padding: 10px;
+        border: 1px solid rgb(20, 14, 14);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-family: 'poppins', sans-serif;
+        background-color: rgb(181, 102, 255);
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="app.js"></script>
+
+    <title>SIGNUP</title>
+</head>
+<body>
+    <div class="container">
+        <form action="login.html">
+        <div>
+            <label for="">FULL NAME</label>
+            <input type="text" required id="name">
+        </div>
+        <div class="gen">
+            <label >GENDER</label>
+            <input type="radio" name="gender" required id="gender"/> MALE
+            <input type="radio" name="gender" required  /> FEMALE
+            
+        </div>
+        <div>
+            <label for="">DATE OF BIRTH</label>
+            <input type="date" name="" id="db" required>
+        </div>
+        <div>
+            <label for="">EMAIL ID</label>
+            <input type="email" required id="email">
+        </div>
+        <button onclick="createUser()" id="btn"> SIGNUP</a> </button>
+        
+
+    </form>
+    <button onclick="deleteUser()" id="btn2">DELETE</button>
+    </div>
+    
+</body>
+</html>
